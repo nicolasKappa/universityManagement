@@ -27,4 +27,7 @@ The University Management System provides the following functionalities:
 - **Console-Based User Interface:** Command-line parsing with the `Scanner` class and a menu-driven interface.
 
 ## Project Structure
+`UniversityManagement/ ├── Course.java ├── User.java ├── Student.java ├── Lector.java ├── LectorType.java ├── CourseNotFoundException.java ├── StudentNotFoundException.java ├── UniManagement.java ├── UniManagementImpl.java └── Main.java`
+
+
 
