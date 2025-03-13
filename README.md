@@ -75,10 +75,15 @@ The University Management System provides the following functionalities:
 - **8: Update Course Name**
 - **9: Exit**
 
+##Future Enhancements:
+- **Command Line Arguments: Extend the application to allow command-line arguments for operations.**
+- **Enhanced UI: Develop a GUI or web interface.**
+- **Data Persistence: Save data to files or a database for persistence between sessions.**
 
-1. **Clone the repository:**
 
-1. **Clone the repository:**
+
+##License
+**This project is licensed under the MIT License.**
 
 
 
