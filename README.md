@@ -65,8 +65,8 @@ The University Management System provides the following functionalities:
    java Main
    
 ## Usage Example (Menu Options):
-**1: Create Student**
-**2: Create Course**
+- **1: Create Student**
+- **2: Create Course**
 **3: Add Student to Course**
 **4: Delete Student**
 **5: Delete Course**
