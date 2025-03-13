@@ -63,7 +63,17 @@ The University Management System provides the following functionalities:
 3. **Run the application:**
    ```bash
    java Main
-``
+   
+## Usage Example (Menu Options):
+**1: Create Student
+**2: Create Course
+**3: Add Student to Course
+**4: Delete Student
+**5: Delete Course
+**6: Assign Lector to Course
+**7: Remove Student from Course
+**8: Update Course Name
+**9: Exit
 
 
 1. **Clone the repository:**
