@@ -27,7 +27,50 @@ The University Management System provides the following functionalities:
 - **Console-Based User Interface:** Command-line parsing with the `Scanner` class and a menu-driven interface.
 
 ## Project Structure
-`UniversityManagement/ ├── Course.java ├── User.java ├── Student.java ├── Lector.java ├── LectorType.java ├── CourseNotFoundException.java ├── StudentNotFoundException.java ├── UniManagement.java ├── UniManagementImpl.java └── Main.java`
+`UniversityManagement/ 
+├── Course.java 
+├── User.java 
+├── Student.java 
+├── Lector.java 
+├── LectorType.java 
+├── CourseNotFoundException.java 
+├── StudentNotFoundException.java 
+├── UniManagement.java 
+├── UniManagementImpl.java 
+└── Main.java`
+
+
+- **Course.java:** Represents a course with a unique name, a list of enrolled students (max 30), and assigned lector/assistance.
+- **User.java:** Base class for `Student` and `Lector` containing common attributes (ID, first name, last name).
+- **Student.java:** Extends `User`, adding a faculty number and a list of courses (max 10 per student).
+- **Lector.java:** Extends `User`, adding a `LectorType` and a list of courses (max 4 per lector).
+- **LectorType.java:** An enum defining lector types (`DOCENT`, `PROFESSOR`, `ASSISTANCE`).
+- **CourseNotFoundException.java & StudentNotFoundException.java:** Custom exception classes.
+- **UniManagement.java:** An interface that defines the contract for all management operations.
+- **UniManagementImpl.java:** Implements the `UniManagement` interface using arrays and lists.
+- **Main.java:** Contains a simple, menu-driven console interface for testing and managing the system.
+
+## How to Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/NikaKapanadze/UniversityManagement.git
+   cd UniversityManagement
+2. **Compile the code:**
+ ```bash
+   javac *.java
+```
+3. **Run the application:**
+   ```bash
+   java Main
+``
+
+
+1. **Clone the repository:**
+
+1. **Clone the repository:**
+
+
 
 
 
