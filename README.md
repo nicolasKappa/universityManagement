@@ -2,6 +2,18 @@
 
 This is a console-based Java application for managing university courses, students, and lectors. It was developed as part of the DOITGEORGIA Java Course Certification project to help practice and apply concepts such as methods, classes, inheritance, exceptions, arrays, lists, loops, and conditionals.
 
+# Table of Contents
+- [Project Overview](#Project_Overview)
+- [Installation](#Installation)
+- [Data Storage](#Data_Storage)
+- [Technologies & Concepts Used](#Technologies_&_Concepts_Used)
+- [Project Structure](#Project_Structure)
+- [How to Run](#How_to_Run)
+- [Usage Example (Menu Options)](#Usage_Example_(Menu_Options))
+- [Future Enhancements:](#Future_Enhancements)
+- [License](#license)
+
+
 ## Project Overview
 
 The University Management System provides the following functionalities:
@@ -75,14 +87,14 @@ The University Management System provides the following functionalities:
 - **8: Update Course Name**
 - **9: Exit**
 
-##Future Enhancements:
+## Future Enhancements:
 - **Command Line Arguments: Extend the application to allow command-line arguments for operations.**
 - **Enhanced UI: Develop a GUI or web interface.**
 - **Data Persistence: Save data to files or a database for persistence between sessions.**
 
 
 
-##License
+## License
 **This project is licensed under the MIT License.**
 
 
